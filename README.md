@@ -9,6 +9,9 @@ An AMM, or Automated Market Maker, is a token pool that lets users trade against
 - Token A / `mint_x`
 - Token B / `mint_y`
 
+<img width="2880" height="1702" alt="image" src="https://github.com/user-attachments/assets/4d5a3bbd-876f-4266-ae22-104756c56f9b" />
+
+
 The pool uses a constant-product curve, where the vault balances maintain the relationship `x * y = k`.
 
 ## Liquidity Flow
