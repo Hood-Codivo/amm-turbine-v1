@@ -1,0 +1,885 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 5655 >>
+stream
+0.110 0.153 0.216 rg
+0 525 842 70 re f
+1.000 1.000 1.000 rg
+BT /F2 22.0 Tf 36.00 561.00 Td (AMM Turbine v1 Flow Diagram) Tj ET
+0.824 0.871 0.933 rg
+BT /F1 10.0 Tf 38.00 540.00 Td (What an AMM is, how liquidity becomes LP tokens, and how withdraw/swap flows work) Tj ET
+0.961 0.980 1.000 rg
+36.00 438.00 236.00 78.00 re f
+0.098 0.345 0.569 RG
+1.20 w
+36.00 438.00 236.00 78.00 re S
+0.098 0.345 0.569 rg
+BT /F2 11.0 Tf 46.00 498.00 Td (What is an AMM?) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 481.00 Td (An Automated Market Maker is a pool of two tokens.) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 470.00 Td (Traders swap against the pool, and liquidity) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 459.00 Td (providers own a share of the pool through LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 448.00 Td (tokens.) Tj ET
+0.973 0.976 0.957 rg
+300.00 438.00 236.00 78.00 re f
+0.306 0.451 0.133 RG
+1.20 w
+300.00 438.00 236.00 78.00 re S
+0.306 0.451 0.133 rg
+BT /F2 11.0 Tf 310.00 498.00 Td (Core idea) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 310.00 481.00 Td (The vaults hold Token A and Token B. The constant-) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 310.00 470.00 Td (product curve uses x * y = k to price swaps and) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 310.00 459.00 Td (preserve pool balance.) Tj ET
+1.000 0.969 0.937 rg
+564.00 438.00 236.00 78.00 re f
+0.678 0.357 0.122 RG
+1.20 w
+564.00 438.00 236.00 78.00 re S
+0.678 0.357 0.122 rg
+BT /F2 11.0 Tf 574.00 498.00 Td (LP token) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 574.00 481.00 Td (An LP token is a receipt for pool ownership. In) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 574.00 470.00 Td (the first deposit example: Token A + Token B => 1) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 574.00 459.00 Td (LP share unit.) Tj ET
+0.961 0.969 0.984 rg
+58.00 300.00 126.00 58.00 re f
+0.176 0.216 0.282 RG
+1.20 w
+58.00 300.00 126.00 58.00 re S
+0.176 0.216 0.282 rg
+BT /F2 11.0 Tf 68.00 340.00 Td (User) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 68.00 323.00 Td (Has Token A and Token B) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+184.00 329.00 m 232.00 329.00 l S
+0.137 0.188 0.267 rg
+232.00 329.00 m 225.25 333.29 l 225.25 324.71 l f
+0.925 0.965 1.000 rg
+232.00 286.00 152.00 86.00 re f
+0.114 0.392 0.667 RG
+1.20 w
+232.00 286.00 152.00 86.00 re S
+0.114 0.392 0.667 rg
+BT /F2 11.0 Tf 242.00 354.00 Td (Deposit liquidity) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 242.00 337.00 Td (User deposits both assets: token A) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 242.00 326.00 Td (and token B. Max limits protect) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 242.00 315.00 Td (against slippage.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+384.00 329.00 m 438.00 329.00 l S
+0.137 0.188 0.267 rg
+438.00 329.00 m 431.25 333.29 l 431.25 324.71 l f
+0.937 0.973 0.941 rg
+438.00 286.00 152.00 86.00 re f
+0.208 0.494 0.282 RG
+1.20 w
+438.00 286.00 152.00 86.00 re S
+0.208 0.494 0.282 rg
+BT /F2 11.0 Tf 448.00 354.00 Td (AMM vaults) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 448.00 337.00 Td (vault_x receives Token A. vault_y) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 448.00 326.00 Td (receives Token B.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+590.00 329.00 m 644.00 329.00 l S
+0.137 0.188 0.267 rg
+644.00 329.00 m 637.25 333.29 l 637.25 324.71 l f
+1.000 0.957 0.910 rg
+644.00 286.00 134.00 86.00 re f
+0.733 0.376 0.145 RG
+1.20 w
+644.00 286.00 134.00 86.00 re S
+0.733 0.376 0.145 rg
+BT /F2 11.0 Tf 654.00 354.00 Td (Mint LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 654.00 337.00 Td (mint_lp creates LP tokens for) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 654.00 326.00 Td (the user_lp account.) Tj ET
+0.988 0.965 0.965 rg
+116.00 155.00 160.00 72.00 re f
+0.627 0.231 0.251 RG
+1.20 w
+116.00 155.00 160.00 72.00 re S
+0.627 0.231 0.251 rg
+BT /F2 11.0 Tf 126.00 209.00 Td (Withdraw) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 126.00 192.00 Td (User burns LP tokens. Pool sends) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 126.00 181.00 Td (proportional Token A and Token B) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 126.00 170.00 Td (back to the user.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+276.00 191.00 m 338.00 191.00 l S
+0.137 0.188 0.267 rg
+338.00 191.00 m 331.25 195.29 l 331.25 186.71 l f
+1.000 0.961 0.933 rg
+338.00 155.00 168.00 72.00 re f
+0.682 0.325 0.133 RG
+1.20 w
+338.00 155.00 168.00 72.00 re S
+0.682 0.325 0.133 rg
+BT /F2 11.0 Tf 348.00 209.00 Td (Burn LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 348.00 192.00 Td (user_lp decreases; mint_lp supply) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 348.00 181.00 Td (decreases.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+506.00 191.00 m 568.00 191.00 l S
+0.137 0.188 0.267 rg
+568.00 191.00 m 561.25 195.29 l 561.25 186.71 l f
+0.937 0.973 0.941 rg
+568.00 155.00 160.00 72.00 re f
+0.208 0.494 0.282 RG
+1.20 w
+568.00 155.00 160.00 72.00 re S
+0.208 0.494 0.282 rg
+BT /F2 11.0 Tf 578.00 209.00 Td (Return tokens) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 578.00 192.00 Td (vault_x -> user_x and vault_y ->) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 578.00 181.00 Td (user_y.) Tj ET
+0.110 0.153 0.216 rg
+BT /F2 12.0 Tf 44.00 105.00 Td (Mental model:) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 44.00 88.00 Td (Deposit adds balanced liquidity and mints ownership. Withdraw burns ownership and returns the underlying tokens. Swap) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 44.00 76.00 Td (trades one token for the other through the pool while the curve updates the effective balances.) Tj ET
+0.804 0.835 0.878 RG
+0.70 w
+36.00 34.00 m 806.00 34.00 l S
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 36.00 18.00 Td (AMM Turbine v1 - flow reference) Tj ET
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 766.00 18.00 Td (Page 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 6290 >>
+stream
+0.110 0.153 0.216 rg
+0 525 842 70 re f
+1.000 1.000 1.000 rg
+BT /F2 22.0 Tf 36.00 561.00 Td (Liquidity Provider Flow) Tj ET
+0.824 0.871 0.933 rg
+BT /F1 10.0 Tf 38.00 540.00 Td (Initialize, deposit Token A + Token B, then mint LP tokens) Tj ET
+0.961 0.980 1.000 rg
+36.00 450.00 148.00 62.00 re f
+0.098 0.345 0.569 RG
+1.20 w
+36.00 450.00 148.00 62.00 re S
+0.098 0.345 0.569 rg
+BT /F2 11.0 Tf 46.00 494.00 Td (1. Initialize pool) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 46.00 477.00 Td (Creates config, LP mint, vault_x,) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 46.00 466.00 Td (and vault_y.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+184.00 481.00 m 220.00 481.00 l S
+0.137 0.188 0.267 rg
+220.00 481.00 m 213.25 485.29 l 213.25 476.71 l f
+0.973 0.976 0.957 rg
+220.00 450.00 148.00 62.00 re f
+0.306 0.451 0.133 RG
+1.20 w
+220.00 450.00 148.00 62.00 re S
+0.306 0.451 0.133 rg
+BT /F2 11.0 Tf 230.00 494.00 Td (2. User prepares) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 230.00 477.00 Td (User owns user_x and user_y token) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 230.00 466.00 Td (accounts.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+368.00 481.00 m 404.00 481.00 l S
+0.137 0.188 0.267 rg
+404.00 481.00 m 397.25 485.29 l 397.25 476.71 l f
+0.925 0.965 1.000 rg
+404.00 450.00 148.00 62.00 re f
+0.114 0.392 0.667 RG
+1.20 w
+404.00 450.00 148.00 62.00 re S
+0.114 0.392 0.667 rg
+BT /F2 11.0 Tf 414.00 494.00 Td (3. Deposit A + B) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 414.00 477.00 Td (AMM computes x and y amounts to) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 414.00 466.00 Td (transfer.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+552.00 481.00 m 588.00 481.00 l S
+0.137 0.188 0.267 rg
+588.00 481.00 m 581.25 485.29 l 581.25 476.71 l f
+1.000 0.957 0.910 rg
+588.00 450.00 148.00 62.00 re f
+0.733 0.376 0.145 RG
+1.20 w
+588.00 450.00 148.00 62.00 re S
+0.733 0.376 0.145 rg
+BT /F2 11.0 Tf 598.00 494.00 Td (4. Mint LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 598.00 477.00 Td (AMM signs as config PDA and mints) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 598.00 466.00 Td (LP to user_lp.) Tj ET
+0.110 0.153 0.216 rg
+BT /F2 13.0 Tf 36.00 404.00 Td (Deposit formula used by the program) Tj ET
+1.000 1.000 1.000 rg
+36.00 315.00 360.00 70.00 re f
+0.255 0.298 0.361 RG
+1.20 w
+36.00 315.00 360.00 70.00 re S
+0.255 0.298 0.361 rg
+BT /F2 11.0 Tf 46.00 367.00 Td (First liquidity) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 350.00 Td (If mint_lp.supply == 0 and both vaults are empty, the program uses max_x and) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 46.00 339.00 Td (max_y as the starting liquidity amounts.) Tj ET
+1.000 1.000 1.000 rg
+430.00 315.00 360.00 70.00 re f
+0.255 0.298 0.361 RG
+1.20 w
+430.00 315.00 360.00 70.00 re S
+0.255 0.298 0.361 rg
+BT /F2 11.0 Tf 440.00 367.00 Td (Existing pool) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 440.00 350.00 Td (For later deposits, ConstantProduct::xy_deposit_amounts_from_l\(vault_x,) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 440.00 339.00 Td (vault_y, lp_supply, amount, precision\) computes the proportional token) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 9.0 Tf 440.00 328.00 Td (amounts.) Tj ET
+1.000 1.000 1.000 rg
+36.00 86.00 770.00 184.00 re f
+0.675 0.722 0.776 RG
+0.80 w
+36.00 86.00 770.00 184.00 re S
+0.902 0.929 0.969 rg
+36.00 224.00 770.00 46.00 re f
+0.902 0.929 0.969 rg
+36.00 224.00 170.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 224.00 170.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 42.00 257.00 Td (Instruction) Tj ET
+0.902 0.929 0.969 rg
+206.00 224.00 315.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 224.00 315.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 212.00 257.00 Td (Inputs) Tj ET
+0.902 0.929 0.969 rg
+521.00 224.00 285.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+521.00 224.00 285.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 527.00 257.00 Td (What changes) Tj ET
+1.000 1.000 1.000 rg
+36.00 178.00 770.00 46.00 re f
+1.000 1.000 1.000 rg
+36.00 178.00 170.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 178.00 170.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 211.00 Td (deposit\(amount, max_x, max_y\)) Tj ET
+1.000 1.000 1.000 rg
+206.00 178.00 315.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 178.00 315.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 211.00 Td (amount = LP tokens user wants; max_x/max_y = upper token spend limits) Tj ET
+1.000 1.000 1.000 rg
+521.00 178.00 285.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+521.00 178.00 285.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 527.00 211.00 Td (user_x and user_y decrease; vault_x and vault_y increase; user_lp) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 527.00 202.00 Td (increases) Tj ET
+1.000 1.000 1.000 rg
+36.00 132.00 770.00 46.00 re f
+1.000 1.000 1.000 rg
+36.00 132.00 170.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 132.00 170.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 165.00 Td (LP relationship) Tj ET
+1.000 1.000 1.000 rg
+206.00 132.00 315.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 132.00 315.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 165.00 Td (Example mental model: \(Token A, Token B\) => 1 LP share) Tj ET
+1.000 1.000 1.000 rg
+521.00 132.00 285.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+521.00 132.00 285.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 527.00 165.00 Td (LP tracks ownership of the pool rather than being Token A or Token) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 527.00 156.00 Td (B itself) Tj ET
+1.000 1.000 1.000 rg
+36.00 86.00 770.00 46.00 re f
+1.000 1.000 1.000 rg
+36.00 86.00 170.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 86.00 170.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 119.00 Td (Slippage guard) Tj ET
+1.000 1.000 1.000 rg
+206.00 86.00 315.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 86.00 315.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 119.00 Td (amounts.x <= max_x and amounts.y <= max_y) Tj ET
+1.000 1.000 1.000 rg
+521.00 86.00 285.00 46.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+521.00 86.00 285.00 46.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 527.00 119.00 Td (Deposit fails if required token amounts exceed the user's limits) Tj ET
+0.804 0.835 0.878 RG
+0.70 w
+36.00 34.00 m 806.00 34.00 l S
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 36.00 18.00 Td (AMM Turbine v1 - flow reference) Tj ET
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 766.00 18.00 Td (Page 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 6455 >>
+stream
+0.110 0.153 0.216 rg
+0 525 842 70 re f
+1.000 1.000 1.000 rg
+BT /F2 22.0 Tf 36.00 561.00 Td (Withdraw and Swap Flow) Tj ET
+0.824 0.871 0.933 rg
+BT /F1 10.0 Tf 38.00 540.00 Td (Burn LP to exit liquidity; swap one token for the other through the vaults) Tj ET
+0.110 0.153 0.216 rg
+BT /F2 13.0 Tf 36.00 505.00 Td (Withdraw path) Tj ET
+1.000 0.969 0.937 rg
+50.00 414.00 140.00 62.00 re f
+0.678 0.357 0.122 RG
+1.20 w
+50.00 414.00 140.00 62.00 re S
+0.678 0.357 0.122 rg
+BT /F2 11.0 Tf 60.00 458.00 Td (User LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 60.00 441.00 Td (User has LP tokens in user_lp.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+190.00 445.00 m 230.00 445.00 l S
+0.137 0.188 0.267 rg
+230.00 445.00 m 223.25 449.29 l 223.25 440.71 l f
+0.988 0.965 0.965 rg
+230.00 414.00 140.00 62.00 re f
+0.627 0.231 0.251 RG
+1.20 w
+230.00 414.00 140.00 62.00 re S
+0.627 0.231 0.251 rg
+BT /F2 11.0 Tf 240.00 458.00 Td (Burn LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 240.00 441.00 Td (burn_lp_tokens\(amount\) burns) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 240.00 430.00 Td (from user_lp.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+370.00 445.00 m 410.00 445.00 l S
+0.137 0.188 0.267 rg
+410.00 445.00 m 403.25 449.29 l 403.25 440.71 l f
+0.961 0.980 1.000 rg
+410.00 414.00 160.00 62.00 re f
+0.098 0.345 0.569 RG
+1.20 w
+410.00 414.00 160.00 62.00 re S
+0.098 0.345 0.569 rg
+BT /F2 11.0 Tf 420.00 458.00 Td (Calculate A + B) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 420.00 441.00 Td (xy_withdraw_amounts_from_l computes) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 420.00 430.00 Td (token output.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+570.00 445.00 m 610.00 445.00 l S
+0.137 0.188 0.267 rg
+610.00 445.00 m 603.25 449.29 l 603.25 440.71 l f
+0.937 0.973 0.941 rg
+610.00 414.00 150.00 62.00 re f
+0.208 0.494 0.282 RG
+1.20 w
+610.00 414.00 150.00 62.00 re S
+0.208 0.494 0.282 rg
+BT /F2 11.0 Tf 620.00 458.00 Td (Send tokens) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 620.00 441.00 Td (vault_x -> user_x and vault_y ->) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 620.00 430.00 Td (user_y.) Tj ET
+0.110 0.153 0.216 rg
+BT /F2 13.0 Tf 36.00 350.00 Td (Swap path) Tj ET
+0.961 0.969 0.984 rg
+50.00 262.00 140.00 62.00 re f
+0.176 0.216 0.282 RG
+1.20 w
+50.00 262.00 140.00 62.00 re S
+0.176 0.216 0.282 rg
+BT /F2 11.0 Tf 60.00 306.00 Td (Trader input) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 60.00 289.00 Td (is_x=true means Token A/X goes) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 60.00 278.00 Td (in. false means Token B/Y goes) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 60.00 267.00 Td (in.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+190.00 293.00 m 230.00 293.00 l S
+0.137 0.188 0.267 rg
+230.00 293.00 m 223.25 297.29 l 223.25 288.71 l f
+0.925 0.965 1.000 rg
+230.00 262.00 150.00 62.00 re f
+0.114 0.392 0.667 RG
+1.20 w
+230.00 262.00 150.00 62.00 re S
+0.114 0.392 0.667 rg
+BT /F2 11.0 Tf 240.00 306.00 Td (Deposit input) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 240.00 289.00 Td (User token account transfers) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 240.00 278.00 Td (input token into the matching) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 240.00 267.00 Td (vault.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+380.00 293.00 m 420.00 293.00 l S
+0.137 0.188 0.267 rg
+420.00 293.00 m 413.25 297.29 l 413.25 288.71 l f
+0.973 0.976 0.957 rg
+420.00 262.00 160.00 62.00 re f
+0.306 0.451 0.133 RG
+1.20 w
+420.00 262.00 160.00 62.00 re S
+0.306 0.451 0.133 rg
+BT /F2 11.0 Tf 430.00 306.00 Td (Curve computes out) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 430.00 289.00 Td (ConstantProduct::swap\(pair, amount,) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 430.00 278.00 Td (min\) calculates output and fee.) Tj ET
+0.137 0.188 0.267 RG
+1.40 w
+580.00 293.00 m 620.00 293.00 l S
+0.137 0.188 0.267 rg
+620.00 293.00 m 613.25 297.29 l 613.25 288.71 l f
+0.937 0.973 0.941 rg
+620.00 262.00 150.00 62.00 re f
+0.208 0.494 0.282 RG
+1.20 w
+620.00 262.00 150.00 62.00 re S
+0.208 0.494 0.282 rg
+BT /F2 11.0 Tf 630.00 306.00 Td (Withdraw output) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 630.00 289.00 Td (Opposite vault sends output token) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.5 Tf 630.00 278.00 Td (to the trader.) Tj ET
+1.000 1.000 1.000 rg
+56.00 58.00 770.00 132.00 re f
+0.675 0.722 0.776 RG
+0.80 w
+56.00 58.00 770.00 132.00 re S
+0.902 0.929 0.969 rg
+56.00 146.00 770.00 44.00 re f
+0.902 0.929 0.969 rg
+56.00 146.00 210.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+56.00 146.00 210.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 62.00 177.00 Td (Flow) Tj ET
+0.902 0.929 0.969 rg
+266.00 146.00 370.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+266.00 146.00 370.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 272.00 177.00 Td (Inputs) Tj ET
+0.902 0.929 0.969 rg
+636.00 146.00 190.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+636.00 146.00 190.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 642.00 177.00 Td (Guard) Tj ET
+1.000 1.000 1.000 rg
+56.00 102.00 770.00 44.00 re f
+1.000 1.000 1.000 rg
+56.00 102.00 210.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+56.00 102.00 210.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 62.00 133.00 Td (withdraw\(amount, min_x, min_y\)) Tj ET
+1.000 1.000 1.000 rg
+266.00 102.00 370.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+266.00 102.00 370.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 272.00 133.00 Td (amount = LP to burn; min_x/min_y = minimum tokens to receive) Tj ET
+1.000 1.000 1.000 rg
+636.00 102.00 190.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+636.00 102.00 190.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 642.00 133.00 Td (Fails if x < min_x or y < min_y) Tj ET
+1.000 1.000 1.000 rg
+56.00 58.00 770.00 44.00 re f
+1.000 1.000 1.000 rg
+56.00 58.00 210.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+56.00 58.00 210.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 62.00 89.00 Td (swap\(is_x, amount_in, min_amount_out\)) Tj ET
+1.000 1.000 1.000 rg
+266.00 58.00 370.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+266.00 58.00 370.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 272.00 89.00 Td (is_x chooses input side; amount_in is input; min_amount_out is output protection) Tj ET
+1.000 1.000 1.000 rg
+636.00 58.00 190.00 44.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+636.00 58.00 190.00 44.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 642.00 89.00 Td (Fails if curve output is below min_amount_out) Tj ET
+0.804 0.835 0.878 RG
+0.70 w
+36.00 34.00 m 806.00 34.00 l S
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 36.00 18.00 Td (AMM Turbine v1 - flow reference) Tj ET
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 766.00 18.00 Td (Page 3) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 7476 >>
+stream
+0.110 0.153 0.216 rg
+0 525 842 70 re f
+1.000 1.000 1.000 rg
+BT /F2 22.0 Tf 36.00 561.00 Td (Accounts and Structs Needed) Tj ET
+0.824 0.871 0.933 rg
+BT /F1 10.0 Tf 38.00 540.00 Td (Anchor account structs and the token accounts each instruction needs) Tj ET
+1.000 1.000 1.000 rg
+36.00 290.00 770.00 210.00 re f
+0.675 0.722 0.776 RG
+0.80 w
+36.00 290.00 770.00 210.00 re S
+0.902 0.929 0.969 rg
+36.00 470.00 770.00 30.00 re f
+0.902 0.929 0.969 rg
+36.00 470.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 470.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 42.00 487.00 Td (Config field) Tj ET
+0.902 0.929 0.969 rg
+206.00 470.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 470.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 212.00 487.00 Td (Meaning) Tj ET
+1.000 1.000 1.000 rg
+36.00 440.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 440.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 440.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 457.00 Td (seed) Tj ET
+1.000 1.000 1.000 rg
+206.00 440.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 440.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 457.00 Td (Pool seed used to derive the config PDA.) Tj ET
+1.000 1.000 1.000 rg
+36.00 410.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 410.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 410.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 427.00 Td (authority) Tj ET
+1.000 1.000 1.000 rg
+206.00 410.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 410.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 427.00 Td (Optional authority that can control pool settings.) Tj ET
+1.000 1.000 1.000 rg
+36.00 380.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 380.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 380.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 397.00 Td (mint_x / mint_y) Tj ET
+1.000 1.000 1.000 rg
+206.00 380.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 380.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 397.00 Td (Token A and Token B mints for this pool.) Tj ET
+1.000 1.000 1.000 rg
+36.00 350.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 350.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 350.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 367.00 Td (fee) Tj ET
+1.000 1.000 1.000 rg
+206.00 350.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 350.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 367.00 Td (Swap fee in basis points.) Tj ET
+1.000 1.000 1.000 rg
+36.00 320.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 320.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 320.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 337.00 Td (locked) Tj ET
+1.000 1.000 1.000 rg
+206.00 320.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 320.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 337.00 Td (If true, deposit/withdraw/swap should be blocked.) Tj ET
+1.000 1.000 1.000 rg
+36.00 290.00 770.00 30.00 re f
+1.000 1.000 1.000 rg
+36.00 290.00 170.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 290.00 170.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 307.00 Td (config_bump / lp_bump) Tj ET
+1.000 1.000 1.000 rg
+206.00 290.00 600.00 30.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+206.00 290.00 600.00 30.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 212.00 307.00 Td (Bumps for config PDA and LP mint PDA.) Tj ET
+1.000 1.000 1.000 rg
+36.00 15.00 770.00 270.00 re f
+0.675 0.722 0.776 RG
+0.80 w
+36.00 15.00 770.00 270.00 re S
+0.902 0.929 0.969 rg
+36.00 231.00 770.00 54.00 re f
+0.902 0.929 0.969 rg
+36.00 231.00 150.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 231.00 150.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 42.00 272.00 Td (Instruction struct) Tj ET
+0.902 0.929 0.969 rg
+186.00 231.00 620.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+186.00 231.00 620.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F2 8.5 Tf 192.00 272.00 Td (Needed accounts) Tj ET
+1.000 1.000 1.000 rg
+36.00 177.00 770.00 54.00 re f
+1.000 1.000 1.000 rg
+36.00 177.00 150.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 177.00 150.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 218.00 Td (Initialize) Tj ET
+1.000 1.000 1.000 rg
+186.00 177.00 620.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+186.00 177.00 620.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 192.00 218.00 Td (initializer signer, mint_x, mint_y, mint_lp PDA, vault_x ATA, vault_y ATA, config PDA, token_program, associated_token_program, system_program) Tj ET
+1.000 1.000 1.000 rg
+36.00 123.00 770.00 54.00 re f
+1.000 1.000 1.000 rg
+36.00 123.00 150.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 123.00 150.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 164.00 Td (Deposit) Tj ET
+1.000 1.000 1.000 rg
+186.00 123.00 620.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+186.00 123.00 620.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 192.00 164.00 Td (user signer, mint_x, mint_y, config, mint_lp, vault_x, vault_y, user_x, user_y, user_lp, token_program, system_program, associated_token_program) Tj ET
+1.000 1.000 1.000 rg
+36.00 69.00 770.00 54.00 re f
+1.000 1.000 1.000 rg
+36.00 69.00 150.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 69.00 150.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 110.00 Td (Withdraw) Tj ET
+1.000 1.000 1.000 rg
+186.00 69.00 620.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+186.00 69.00 620.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 192.00 110.00 Td (user signer, mint_x, mint_y, config, mint_lp, vault_x, vault_y, user_x, user_y, user_lp, token_program, system_program, associated_token_program) Tj ET
+1.000 1.000 1.000 rg
+36.00 15.00 770.00 54.00 re f
+1.000 1.000 1.000 rg
+36.00 15.00 150.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+36.00 15.00 150.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 42.00 56.00 Td (Swap) Tj ET
+1.000 1.000 1.000 rg
+186.00 15.00 620.00 54.00 re f
+0.824 0.855 0.894 RG
+0.50 w
+186.00 15.00 620.00 54.00 re S
+0.137 0.188 0.267 rg
+BT /F1 7.8 Tf 192.00 56.00 Td (user signer, mint_x, mint_y, config, mint_lp, vault_x, vault_y, user_x, user_y, token_program, system_program, associated_token_program) Tj ET
+0.961 0.980 1.000 rg
+36.00 50.00 370.00 74.00 re f
+0.098 0.345 0.569 RG
+1.20 w
+36.00 50.00 370.00 74.00 re S
+0.098 0.345 0.569 rg
+BT /F2 11.0 Tf 46.00 106.00 Td (PDA and token account rules) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 46.00 89.00 Td (config PDA: seeds ["config", seed]. LP mint PDA: seeds ["lp", config.key\(\)].) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 46.00 78.00 Td (Vault token accounts are ATAs owned by config. User token accounts are ATAs) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 46.00 67.00 Td (owned by user.) Tj ET
+0.973 0.976 0.957 rg
+430.00 50.00 370.00 74.00 re f
+0.306 0.451 0.133 RG
+1.20 w
+430.00 50.00 370.00 74.00 re S
+0.306 0.451 0.133 rg
+BT /F2 11.0 Tf 440.00 106.00 Td (In plain English) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 440.00 89.00 Td (Liquidity providers deposit both tokens and receive LP. To exit, they burn LP) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 440.00 78.00 Td (and receive both tokens back. Swappers deposit one token and receive the other) Tj ET
+0.137 0.188 0.267 rg
+BT /F1 8.8 Tf 440.00 67.00 Td (token from the pool.) Tj ET
+0.804 0.835 0.878 RG
+0.70 w
+36.00 34.00 m 806.00 34.00 l S
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 36.00 18.00 Td (AMM Turbine v1 - flow reference) Tj ET
+0.373 0.412 0.471 rg
+BT /F1 8.0 Tf 766.00 18.00 Td (Page 4) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000286 00000 n 
+0000000354 00000 n 
+0000006061 00000 n 
+0000006207 00000 n 
+0000012549 00000 n 
+0000012695 00000 n 
+0000019203 00000 n 
+0000019351 00000 n 
+0000026880 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+27028
+%%EOF
